@@ -8,9 +8,7 @@ export class CreateSpecifications1617721402166 implements MigrationInterface {
         columns: [
           {
             name: "id",
-
             type: "uuid",
-
             isPrimary: true,
           },
           {
