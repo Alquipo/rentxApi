@@ -14,9 +14,8 @@ class CategoriesRepositoryInMemory implements ICategoriesRepository {
   }
 
   async list(): Promise<Category[]> {
-    const list = this.categories;
-
-    return list;
+    const all = this.categories;
+    return all;
   }
 
   async create({ name, description }: ICreateCategoryDTO): Promise<void> {
